@@ -1,0 +1,26 @@
+$rupture.anti-overlap = lookup('$globalRuptureAntiOverlap') || -1px
+$rupture.scale = lookup('$globalRuptureScale') || (0 426px 576px 768px 992px 1200px)
+
+.flyntComponent[is='flynt-document-default']
+  fieldset
+    margin: 0 0 16px
+
+  input,
+  label,
+  select,
+  textarea
+    font-size: inherit
+    font-family: inherit
+
+  input,
+  select,
+  textarea
+    display: inline-block
+    padding: 10px
+    margin: 0 0 16px
+
+  input[type='checkbox'],
+  input[type='radio']
+    cursor: pointer
+    position: relative
+    top: -2px

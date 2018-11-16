@@ -1,0 +1,34 @@
+{
+  "projectName": "mission-expedition",
+  "composerRepos": null,
+  "composerPackages": null,
+  "acfProKey": "",
+  "themeName": "mission-expedition",
+  "environments": {
+    "local": {
+      "wp": {
+        "home": "https://mission-expedition.local.blee.ch",
+        "env": "development",
+        "siteurl": "http://mission-expedition.test/wp",
+        "title": "Mission/Expedition",
+        "admin": {
+          "name": "phil",
+          "email": "me@phil.is"
+        }
+      },
+      "db": {
+        "host": "localhost",
+        "root": {
+          "user": "root",
+          "password": "root"
+        },
+        "name": "mission",
+        "user": "mission",
+        "password": "mission",
+        "port": 3306,
+        "socket": ""
+      }
+    }
+  },
+  "repository": "git@github.com:BennettPhil/mission-expedition.git"
+}
